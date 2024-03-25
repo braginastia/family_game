@@ -8,4 +8,8 @@ public class Touch : MonoBehaviour
     {
         Debug.Log("Dont touch!");
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("You walked");
+    }
 }
